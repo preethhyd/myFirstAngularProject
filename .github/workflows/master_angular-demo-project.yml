@@ -53,4 +53,4 @@ jobs:
           app-name: 'angular-demo-project'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C59355A0964A46128FB9A614B91F510E }}
-          package: .
+          package: ./dist/hello-world-app
